@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		434FECFC1E8426D7006EA7ED /* WaniModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 434FECF21E8426D7006EA7ED /* WaniModel.framework */; };
+		434FED011E8426D7006EA7ED /* WaniModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED001E8426D7006EA7ED /* WaniModelTests.swift */; };
+		434FED031E8426D7006EA7ED /* WaniModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 434FECF51E8426D7006EA7ED /* WaniModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		434FED1A1E842727006EA7ED /* InitialisationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED0C1E842727006EA7ED /* InitialisationError.swift */; };
+		434FED1B1E842727006EA7ED /* DashboardInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED0E1E842727006EA7ED /* DashboardInfo.swift */; };
+		434FED1C1E842727006EA7ED /* KanjiInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED0F1E842727006EA7ED /* KanjiInfo.swift */; };
+		434FED1D1E842727006EA7ED /* LevelProgressionInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED101E842727006EA7ED /* LevelProgressionInfo.swift */; };
+		434FED1E1E842727006EA7ED /* RadicalInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED111E842727006EA7ED /* RadicalInfo.swift */; };
+		434FED1F1E842727006EA7ED /* ReviewItemInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED121E842727006EA7ED /* ReviewItemInfo.swift */; };
+		434FED201E842727006EA7ED /* SRSDistributionInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED131E842727006EA7ED /* SRSDistributionInfo.swift */; };
+		434FED211E842727006EA7ED /* SRSLevelInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED141E842727006EA7ED /* SRSLevelInfo.swift */; };
+		434FED221E842727006EA7ED /* StudyQueueInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED151E842727006EA7ED /* StudyQueueInfo.swift */; };
+		434FED231E842727006EA7ED /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED161E842727006EA7ED /* UserInfo.swift */; };
+		434FED241E842727006EA7ED /* UserSpecific.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED171E842727006EA7ED /* UserSpecific.swift */; };
+		434FED251E842727006EA7ED /* WaniKaniDataStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED181E842727006EA7ED /* WaniKaniDataStructure.swift */; };
+		434FED261E842727006EA7ED /* WordlInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED191E842727006EA7ED /* WordlInfo.swift */; };
+		434FED301E84278C006EA7ED /* WaniModel-Watch.h in Headers */ = {isa = PBXBuildFile; fileRef = 434FED2E1E84278C006EA7ED /* WaniModel-Watch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		434FED341E84279F006EA7ED /* InitialisationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED0C1E842727006EA7ED /* InitialisationError.swift */; };
+		434FED351E84279F006EA7ED /* DashboardInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED0E1E842727006EA7ED /* DashboardInfo.swift */; };
+		434FED361E84279F006EA7ED /* KanjiInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED0F1E842727006EA7ED /* KanjiInfo.swift */; };
+		434FED371E84279F006EA7ED /* LevelProgressionInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED101E842727006EA7ED /* LevelProgressionInfo.swift */; };
+		434FED381E84279F006EA7ED /* RadicalInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED111E842727006EA7ED /* RadicalInfo.swift */; };
+		434FED391E84279F006EA7ED /* ReviewItemInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED121E842727006EA7ED /* ReviewItemInfo.swift */; };
+		434FED3A1E84279F006EA7ED /* SRSDistributionInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED131E842727006EA7ED /* SRSDistributionInfo.swift */; };
+		434FED3B1E84279F006EA7ED /* SRSLevelInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED141E842727006EA7ED /* SRSLevelInfo.swift */; };
+		434FED3C1E84279F006EA7ED /* StudyQueueInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED151E842727006EA7ED /* StudyQueueInfo.swift */; };
+		434FED3D1E84279F006EA7ED /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED161E842727006EA7ED /* UserInfo.swift */; };
+		434FED3E1E84279F006EA7ED /* UserSpecific.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED171E842727006EA7ED /* UserSpecific.swift */; };
+		434FED3F1E84279F006EA7ED /* WaniKaniDataStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED181E842727006EA7ED /* WaniKaniDataStructure.swift */; };
+		434FED401E84279F006EA7ED /* WordlInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED191E842727006EA7ED /* WordlInfo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		434FECFD1E8426D7006EA7ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 434FECE91E8426D7006EA7ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 434FECF11E8426D7006EA7ED;
+			remoteInfo = WaniModel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		434FECF21E8426D7006EA7ED /* WaniModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WaniModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		434FECF51E8426D7006EA7ED /* WaniModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaniModel.h; sourceTree = "<group>"; };
+		434FECF61E8426D7006EA7ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		434FECFB1E8426D7006EA7ED /* WaniModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaniModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		434FED001E8426D7006EA7ED /* WaniModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaniModelTests.swift; sourceTree = "<group>"; };
+		434FED021E8426D7006EA7ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		434FED0C1E842727006EA7ED /* InitialisationError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialisationError.swift; sourceTree = "<group>"; };
+		434FED0E1E842727006EA7ED /* DashboardInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardInfo.swift; sourceTree = "<group>"; };
+		434FED0F1E842727006EA7ED /* KanjiInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KanjiInfo.swift; sourceTree = "<group>"; };
+		434FED101E842727006EA7ED /* LevelProgressionInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelProgressionInfo.swift; sourceTree = "<group>"; };
+		434FED111E842727006EA7ED /* RadicalInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadicalInfo.swift; sourceTree = "<group>"; };
+		434FED121E842727006EA7ED /* ReviewItemInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewItemInfo.swift; sourceTree = "<group>"; };
+		434FED131E842727006EA7ED /* SRSDistributionInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SRSDistributionInfo.swift; sourceTree = "<group>"; };
+		434FED141E842727006EA7ED /* SRSLevelInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SRSLevelInfo.swift; sourceTree = "<group>"; };
+		434FED151E842727006EA7ED /* StudyQueueInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudyQueueInfo.swift; sourceTree = "<group>"; };
+		434FED161E842727006EA7ED /* UserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		434FED171E842727006EA7ED /* UserSpecific.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSpecific.swift; sourceTree = "<group>"; };
+		434FED181E842727006EA7ED /* WaniKaniDataStructure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaniKaniDataStructure.swift; sourceTree = "<group>"; };
+		434FED191E842727006EA7ED /* WordlInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordlInfo.swift; sourceTree = "<group>"; };
+		434FED2C1E84278C006EA7ED /* WaniModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WaniModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		434FED2E1E84278C006EA7ED /* WaniModel-Watch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WaniModel-Watch.h"; sourceTree = "<group>"; };
+		434FED2F1E84278C006EA7ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		434FECEE1E8426D7006EA7ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		434FECF81E8426D7006EA7ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				434FECFC1E8426D7006EA7ED /* WaniModel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		434FED281E84278C006EA7ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		434FECE81E8426D7006EA7ED = {
+			isa = PBXGroup;
+			children = (
+				434FECF41E8426D7006EA7ED /* WaniModel */,
+				434FED2D1E84278C006EA7ED /* WaniModel-Watch */,
+				434FECFF1E8426D7006EA7ED /* WaniModelTests */,
+				434FECF31E8426D7006EA7ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		434FECF31E8426D7006EA7ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				434FECF21E8426D7006EA7ED /* WaniModel.framework */,
+				434FECFB1E8426D7006EA7ED /* WaniModelTests.xctest */,
+				434FED2C1E84278C006EA7ED /* WaniModel.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		434FECF41E8426D7006EA7ED /* WaniModel */ = {
+			isa = PBXGroup;
+			children = (
+				434FED0C1E842727006EA7ED /* InitialisationError.swift */,
+				434FED0D1E842727006EA7ED /* Model */,
+				434FECF51E8426D7006EA7ED /* WaniModel.h */,
+				434FECF61E8426D7006EA7ED /* Info.plist */,
+			);
+			path = WaniModel;
+			sourceTree = "<group>";
+		};
+		434FECFF1E8426D7006EA7ED /* WaniModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				434FED001E8426D7006EA7ED /* WaniModelTests.swift */,
+				434FED021E8426D7006EA7ED /* Info.plist */,
+			);
+			path = WaniModelTests;
+			sourceTree = "<group>";
+		};
+		434FED0D1E842727006EA7ED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				434FED0E1E842727006EA7ED /* DashboardInfo.swift */,
+				434FED0F1E842727006EA7ED /* KanjiInfo.swift */,
+				434FED101E842727006EA7ED /* LevelProgressionInfo.swift */,
+				434FED111E842727006EA7ED /* RadicalInfo.swift */,
+				434FED121E842727006EA7ED /* ReviewItemInfo.swift */,
+				434FED131E842727006EA7ED /* SRSDistributionInfo.swift */,
+				434FED141E842727006EA7ED /* SRSLevelInfo.swift */,
+				434FED151E842727006EA7ED /* StudyQueueInfo.swift */,
+				434FED161E842727006EA7ED /* UserInfo.swift */,
+				434FED171E842727006EA7ED /* UserSpecific.swift */,
+				434FED181E842727006EA7ED /* WaniKaniDataStructure.swift */,
+				434FED191E842727006EA7ED /* WordlInfo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		434FED2D1E84278C006EA7ED /* WaniModel-Watch */ = {
+			isa = PBXGroup;
+			children = (
+				434FED2E1E84278C006EA7ED /* WaniModel-Watch.h */,
+				434FED2F1E84278C006EA7ED /* Info.plist */,
+			);
+			path = "WaniModel-Watch";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		434FECEF1E8426D7006EA7ED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				434FED031E8426D7006EA7ED /* WaniModel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		434FED291E84278C006EA7ED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				434FED301E84278C006EA7ED /* WaniModel-Watch.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		434FECF11E8426D7006EA7ED /* WaniModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 434FED061E8426D7006EA7ED /* Build configuration list for PBXNativeTarget "WaniModel" */;
+			buildPhases = (
+				434FECED1E8426D7006EA7ED /* Sources */,
+				434FECEE1E8426D7006EA7ED /* Frameworks */,
+				434FECEF1E8426D7006EA7ED /* Headers */,
+				434FECF01E8426D7006EA7ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaniModel;
+			productName = WaniModel;
+			productReference = 434FECF21E8426D7006EA7ED /* WaniModel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		434FECFA1E8426D7006EA7ED /* WaniModelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 434FED091E8426D7006EA7ED /* Build configuration list for PBXNativeTarget "WaniModelTests" */;
+			buildPhases = (
+				434FECF71E8426D7006EA7ED /* Sources */,
+				434FECF81E8426D7006EA7ED /* Frameworks */,
+				434FECF91E8426D7006EA7ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				434FECFE1E8426D7006EA7ED /* PBXTargetDependency */,
+			);
+			name = WaniModelTests;
+			productName = WaniModelTests;
+			productReference = 434FECFB1E8426D7006EA7ED /* WaniModelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		434FED2B1E84278C006EA7ED /* WaniModel-Watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 434FED311E84278C006EA7ED /* Build configuration list for PBXNativeTarget "WaniModel-Watch" */;
+			buildPhases = (
+				434FED271E84278C006EA7ED /* Sources */,
+				434FED281E84278C006EA7ED /* Frameworks */,
+				434FED291E84278C006EA7ED /* Headers */,
+				434FED2A1E84278C006EA7ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WaniModel-Watch";
+			productName = "WaniModel-Watch";
+			productReference = 434FED2C1E84278C006EA7ED /* WaniModel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		434FECE91E8426D7006EA7ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "@haawa799";
+				TargetAttributes = {
+					434FECF11E8426D7006EA7ED = {
+						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					434FECFA1E8426D7006EA7ED = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					434FED2B1E84278C006EA7ED = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 434FECEC1E8426D7006EA7ED /* Build configuration list for PBXProject "WaniModel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 434FECE81E8426D7006EA7ED;
+			productRefGroup = 434FECF31E8426D7006EA7ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				434FECF11E8426D7006EA7ED /* WaniModel */,
+				434FED2B1E84278C006EA7ED /* WaniModel-Watch */,
+				434FECFA1E8426D7006EA7ED /* WaniModelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		434FECF01E8426D7006EA7ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		434FECF91E8426D7006EA7ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		434FED2A1E84278C006EA7ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		434FECED1E8426D7006EA7ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				434FED1D1E842727006EA7ED /* LevelProgressionInfo.swift in Sources */,
+				434FED211E842727006EA7ED /* SRSLevelInfo.swift in Sources */,
+				434FED1B1E842727006EA7ED /* DashboardInfo.swift in Sources */,
+				434FED221E842727006EA7ED /* StudyQueueInfo.swift in Sources */,
+				434FED201E842727006EA7ED /* SRSDistributionInfo.swift in Sources */,
+				434FED1F1E842727006EA7ED /* ReviewItemInfo.swift in Sources */,
+				434FED241E842727006EA7ED /* UserSpecific.swift in Sources */,
+				434FED1C1E842727006EA7ED /* KanjiInfo.swift in Sources */,
+				434FED1E1E842727006EA7ED /* RadicalInfo.swift in Sources */,
+				434FED231E842727006EA7ED /* UserInfo.swift in Sources */,
+				434FED261E842727006EA7ED /* WordlInfo.swift in Sources */,
+				434FED1A1E842727006EA7ED /* InitialisationError.swift in Sources */,
+				434FED251E842727006EA7ED /* WaniKaniDataStructure.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		434FECF71E8426D7006EA7ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				434FED011E8426D7006EA7ED /* WaniModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		434FED271E84278C006EA7ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				434FED371E84279F006EA7ED /* LevelProgressionInfo.swift in Sources */,
+				434FED3B1E84279F006EA7ED /* SRSLevelInfo.swift in Sources */,
+				434FED351E84279F006EA7ED /* DashboardInfo.swift in Sources */,
+				434FED3C1E84279F006EA7ED /* StudyQueueInfo.swift in Sources */,
+				434FED3A1E84279F006EA7ED /* SRSDistributionInfo.swift in Sources */,
+				434FED391E84279F006EA7ED /* ReviewItemInfo.swift in Sources */,
+				434FED3E1E84279F006EA7ED /* UserSpecific.swift in Sources */,
+				434FED361E84279F006EA7ED /* KanjiInfo.swift in Sources */,
+				434FED381E84279F006EA7ED /* RadicalInfo.swift in Sources */,
+				434FED3D1E84279F006EA7ED /* UserInfo.swift in Sources */,
+				434FED401E84279F006EA7ED /* WordlInfo.swift in Sources */,
+				434FED341E84279F006EA7ED /* InitialisationError.swift in Sources */,
+				434FED3F1E84279F006EA7ED /* WaniKaniDataStructure.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		434FECFE1E8426D7006EA7ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 434FECF11E8426D7006EA7ED /* WaniModel */;
+			targetProxy = 434FECFD1E8426D7006EA7ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		434FED041E8426D7006EA7ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		434FED051E8426D7006EA7ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		434FED071E8426D7006EA7ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = WaniModel/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haawa.WaniModel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		434FED081E8426D7006EA7ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = WaniModel/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haawa.WaniModel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		434FED0A1E8426D7006EA7ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = WaniModelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haawa.WaniModelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		434FED0B1E8426D7006EA7ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = WaniModelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haawa.WaniModelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		434FED321E84278C006EA7ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "WaniModel-Watch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haawa.WaniModel-Watch";
+				PRODUCT_NAME = WaniModel;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		434FED331E84278C006EA7ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "WaniModel-Watch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haawa.WaniModel-Watch";
+				PRODUCT_NAME = WaniModel;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		434FECEC1E8426D7006EA7ED /* Build configuration list for PBXProject "WaniModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				434FED041E8426D7006EA7ED /* Debug */,
+				434FED051E8426D7006EA7ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		434FED061E8426D7006EA7ED /* Build configuration list for PBXNativeTarget "WaniModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				434FED071E8426D7006EA7ED /* Debug */,
+				434FED081E8426D7006EA7ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		434FED091E8426D7006EA7ED /* Build configuration list for PBXNativeTarget "WaniModelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				434FED0A1E8426D7006EA7ED /* Debug */,
+				434FED0B1E8426D7006EA7ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		434FED311E84278C006EA7ED /* Build configuration list for PBXNativeTarget "WaniModel-Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				434FED321E84278C006EA7ED /* Debug */,
+				434FED331E84278C006EA7ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 434FECE91E8426D7006EA7ED /* Project object */;
+}
