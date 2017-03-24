@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import UIKit
 
 public enum ReviewItemInfo: WaniKaniDataStructure {
 
@@ -75,14 +74,6 @@ public enum ReviewItemInfo: WaniKaniDataStructure {
     case .radical: return ""
     case .kanji(let kanji): return kanji.reading
     case .word(let word): return word.kana
-    }
-  }
-
-  public var backgroundColor: UIColor {
-    switch self {
-    case .radical(_): return UIColor(red:0.09, green:0.59, blue:0.87, alpha:1.00)
-    case .kanji(_): return UIColor(red:0.92, green:0.12, blue:0.39, alpha:1.00)
-    case .word(_): return UIColor(red:0.60, green:0.22, blue:0.69, alpha:1.00)
     }
   }
 

@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>WaniModel-mac.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>WaniModel.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -28,6 +33,11 @@
 			<true/>
 		</dict>
 		<key>434FED2B1E84278C006EA7ED</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>434FED691E851DAF006EA7ED</key>
 		<dict>
 			<key>primary</key>
 			<true/>

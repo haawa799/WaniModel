@@ -37,6 +37,23 @@
 		434FED3E1E84279F006EA7ED /* UserSpecific.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED171E842727006EA7ED /* UserSpecific.swift */; };
 		434FED3F1E84279F006EA7ED /* WaniKaniDataStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED181E842727006EA7ED /* WaniKaniDataStructure.swift */; };
 		434FED401E84279F006EA7ED /* WordlInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED191E842727006EA7ED /* WordlInfo.swift */; };
+		434FED6E1E851DAF006EA7ED /* WaniModel-mac.h in Headers */ = {isa = PBXBuildFile; fileRef = 434FED6C1E851DAF006EA7ED /* WaniModel-mac.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		434FED721E851DCC006EA7ED /* InitialisationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED0C1E842727006EA7ED /* InitialisationError.swift */; };
+		434FED731E851DCC006EA7ED /* DashboardInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED0E1E842727006EA7ED /* DashboardInfo.swift */; };
+		434FED741E851DCC006EA7ED /* KanjiInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED0F1E842727006EA7ED /* KanjiInfo.swift */; };
+		434FED751E851DCC006EA7ED /* LevelProgressionInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED101E842727006EA7ED /* LevelProgressionInfo.swift */; };
+		434FED761E851DCC006EA7ED /* RadicalInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED111E842727006EA7ED /* RadicalInfo.swift */; };
+		434FED771E851DCC006EA7ED /* ReviewItemInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED121E842727006EA7ED /* ReviewItemInfo.swift */; };
+		434FED781E851DCC006EA7ED /* SRSDistributionInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED131E842727006EA7ED /* SRSDistributionInfo.swift */; };
+		434FED791E851DCC006EA7ED /* SRSLevelInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED141E842727006EA7ED /* SRSLevelInfo.swift */; };
+		434FED7A1E851DCC006EA7ED /* StudyQueueInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED151E842727006EA7ED /* StudyQueueInfo.swift */; };
+		434FED7B1E851DCC006EA7ED /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED161E842727006EA7ED /* UserInfo.swift */; };
+		434FED7C1E851DCC006EA7ED /* UserSpecific.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED171E842727006EA7ED /* UserSpecific.swift */; };
+		434FED7D1E851DCC006EA7ED /* WaniKaniDataStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED181E842727006EA7ED /* WaniKaniDataStructure.swift */; };
+		434FED7E1E851DCC006EA7ED /* WordlInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED191E842727006EA7ED /* WordlInfo.swift */; };
+		434FED801E851E44006EA7ED /* ReviewItemInfo+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED7F1E851E44006EA7ED /* ReviewItemInfo+Color.swift */; };
+		434FED811E851F7B006EA7ED /* ReviewItemInfo+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED7F1E851E44006EA7ED /* ReviewItemInfo+Color.swift */; };
+		434FED821E851F7C006EA7ED /* ReviewItemInfo+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED7F1E851E44006EA7ED /* ReviewItemInfo+Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +89,10 @@
 		434FED2C1E84278C006EA7ED /* WaniModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WaniModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		434FED2E1E84278C006EA7ED /* WaniModel-Watch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WaniModel-Watch.h"; sourceTree = "<group>"; };
 		434FED2F1E84278C006EA7ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		434FED6A1E851DAF006EA7ED /* WaniModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WaniModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		434FED6C1E851DAF006EA7ED /* WaniModel-mac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WaniModel-mac.h"; sourceTree = "<group>"; };
+		434FED6D1E851DAF006EA7ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		434FED7F1E851E44006EA7ED /* ReviewItemInfo+Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ReviewItemInfo+Color.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +118,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		434FED661E851DAF006EA7ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -105,6 +133,7 @@
 			children = (
 				434FECF41E8426D7006EA7ED /* WaniModel */,
 				434FED2D1E84278C006EA7ED /* WaniModel-Watch */,
+				434FED6B1E851DAF006EA7ED /* WaniModel-mac */,
 				434FECFF1E8426D7006EA7ED /* WaniModelTests */,
 				434FECF31E8426D7006EA7ED /* Products */,
 			);
@@ -116,6 +145,7 @@
 				434FECF21E8426D7006EA7ED /* WaniModel.framework */,
 				434FECFB1E8426D7006EA7ED /* WaniModelTests.xctest */,
 				434FED2C1E84278C006EA7ED /* WaniModel.framework */,
+				434FED6A1E851DAF006EA7ED /* WaniModel.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -148,6 +178,7 @@
 				434FED101E842727006EA7ED /* LevelProgressionInfo.swift */,
 				434FED111E842727006EA7ED /* RadicalInfo.swift */,
 				434FED121E842727006EA7ED /* ReviewItemInfo.swift */,
+				434FED7F1E851E44006EA7ED /* ReviewItemInfo+Color.swift */,
 				434FED131E842727006EA7ED /* SRSDistributionInfo.swift */,
 				434FED141E842727006EA7ED /* SRSLevelInfo.swift */,
 				434FED151E842727006EA7ED /* StudyQueueInfo.swift */,
@@ -168,6 +199,15 @@
 			path = "WaniModel-Watch";
 			sourceTree = "<group>";
 		};
+		434FED6B1E851DAF006EA7ED /* WaniModel-mac */ = {
+			isa = PBXGroup;
+			children = (
+				434FED6C1E851DAF006EA7ED /* WaniModel-mac.h */,
+				434FED6D1E851DAF006EA7ED /* Info.plist */,
+			);
+			path = "WaniModel-mac";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -184,6 +224,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				434FED301E84278C006EA7ED /* WaniModel-Watch.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		434FED671E851DAF006EA7ED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				434FED6E1E851DAF006EA7ED /* WaniModel-mac.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,6 +292,24 @@
 			productReference = 434FED2C1E84278C006EA7ED /* WaniModel.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		434FED691E851DAF006EA7ED /* WaniModel-mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 434FED711E851DB0006EA7ED /* Build configuration list for PBXNativeTarget "WaniModel-mac" */;
+			buildPhases = (
+				434FED651E851DAF006EA7ED /* Sources */,
+				434FED661E851DAF006EA7ED /* Frameworks */,
+				434FED671E851DAF006EA7ED /* Headers */,
+				434FED681E851DAF006EA7ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WaniModel-mac";
+			productName = "WaniModel-mac";
+			productReference = 434FED6A1E851DAF006EA7ED /* WaniModel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -267,6 +333,10 @@
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 					};
+					434FED691E851DAF006EA7ED = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 434FECEC1E8426D7006EA7ED /* Build configuration list for PBXProject "WaniModel" */;
@@ -283,6 +353,7 @@
 			targets = (
 				434FECF11E8426D7006EA7ED /* WaniModel */,
 				434FED2B1E84278C006EA7ED /* WaniModel-Watch */,
+				434FED691E851DAF006EA7ED /* WaniModel-mac */,
 				434FECFA1E8426D7006EA7ED /* WaniModelTests */,
 			);
 		};
@@ -310,6 +381,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		434FED681E851DAF006EA7ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -321,6 +399,7 @@
 				434FED211E842727006EA7ED /* SRSLevelInfo.swift in Sources */,
 				434FED1B1E842727006EA7ED /* DashboardInfo.swift in Sources */,
 				434FED221E842727006EA7ED /* StudyQueueInfo.swift in Sources */,
+				434FED801E851E44006EA7ED /* ReviewItemInfo+Color.swift in Sources */,
 				434FED201E842727006EA7ED /* SRSDistributionInfo.swift in Sources */,
 				434FED1F1E842727006EA7ED /* ReviewItemInfo.swift in Sources */,
 				434FED241E842727006EA7ED /* UserSpecific.swift in Sources */,
@@ -349,6 +428,7 @@
 				434FED3B1E84279F006EA7ED /* SRSLevelInfo.swift in Sources */,
 				434FED351E84279F006EA7ED /* DashboardInfo.swift in Sources */,
 				434FED3C1E84279F006EA7ED /* StudyQueueInfo.swift in Sources */,
+				434FED811E851F7B006EA7ED /* ReviewItemInfo+Color.swift in Sources */,
 				434FED3A1E84279F006EA7ED /* SRSDistributionInfo.swift in Sources */,
 				434FED391E84279F006EA7ED /* ReviewItemInfo.swift in Sources */,
 				434FED3E1E84279F006EA7ED /* UserSpecific.swift in Sources */,
@@ -358,6 +438,27 @@
 				434FED401E84279F006EA7ED /* WordlInfo.swift in Sources */,
 				434FED341E84279F006EA7ED /* InitialisationError.swift in Sources */,
 				434FED3F1E84279F006EA7ED /* WaniKaniDataStructure.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		434FED651E851DAF006EA7ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				434FED751E851DCC006EA7ED /* LevelProgressionInfo.swift in Sources */,
+				434FED791E851DCC006EA7ED /* SRSLevelInfo.swift in Sources */,
+				434FED731E851DCC006EA7ED /* DashboardInfo.swift in Sources */,
+				434FED7A1E851DCC006EA7ED /* StudyQueueInfo.swift in Sources */,
+				434FED821E851F7C006EA7ED /* ReviewItemInfo+Color.swift in Sources */,
+				434FED781E851DCC006EA7ED /* SRSDistributionInfo.swift in Sources */,
+				434FED771E851DCC006EA7ED /* ReviewItemInfo.swift in Sources */,
+				434FED7C1E851DCC006EA7ED /* UserSpecific.swift in Sources */,
+				434FED741E851DCC006EA7ED /* KanjiInfo.swift in Sources */,
+				434FED761E851DCC006EA7ED /* RadicalInfo.swift in Sources */,
+				434FED7B1E851DCC006EA7ED /* UserInfo.swift in Sources */,
+				434FED7E1E851DCC006EA7ED /* WordlInfo.swift in Sources */,
+				434FED721E851DCC006EA7ED /* InitialisationError.swift in Sources */,
+				434FED7D1E851DCC006EA7ED /* WaniKaniDataStructure.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,6 +681,50 @@
 			};
 			name = Release;
 		};
+		434FED6F1E851DB0006EA7ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "WaniModel-mac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haawa.WaniModel-mac";
+				PRODUCT_NAME = WaniModel;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		434FED701E851DB0006EA7ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "WaniModel-mac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haawa.WaniModel-mac";
+				PRODUCT_NAME = WaniModel;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -599,6 +744,7 @@
 				434FED081E8426D7006EA7ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		434FED091E8426D7006EA7ED /* Build configuration list for PBXNativeTarget "WaniModelTests" */ = {
 			isa = XCConfigurationList;
@@ -607,12 +753,22 @@
 				434FED0B1E8426D7006EA7ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		434FED311E84278C006EA7ED /* Build configuration list for PBXNativeTarget "WaniModel-Watch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				434FED321E84278C006EA7ED /* Debug */,
 				434FED331E84278C006EA7ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		434FED711E851DB0006EA7ED /* Build configuration list for PBXNativeTarget "WaniModel-mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				434FED6F1E851DB0006EA7ED /* Debug */,
+				434FED701E851DB0006EA7ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
