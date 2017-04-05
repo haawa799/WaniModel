@@ -55,3 +55,12 @@ extension SRSDistributionInfo {
     burned = SRSLevelInfo(dict: burnedDict)
   }
 }
+
+
+public func ==(lhs: SRSDistributionInfo, rhs: SRSDistributionInfo) -> Bool {
+  return (lhs.apprentice == rhs.apprentice) && 
+(lhs.guru == rhs.guru) && 
+(lhs.master == rhs.master) && 
+(lhs.enlighten == rhs.enlighten) && 
+(lhs.burned == rhs.burned)
+  }

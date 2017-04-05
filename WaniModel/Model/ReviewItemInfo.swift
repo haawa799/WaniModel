@@ -78,3 +78,16 @@ public enum ReviewItemInfo: WaniKaniDataStructure {
   }
 
 }
+
+public func ==(lhs: ReviewItemInfo, rhs: ReviewItemInfo) -> Bool {
+  if case let ReviewItemInfo.radical(radicalLHS) = lhs, case let ReviewItemInfo.radical(radicalRHS) = rhs {
+    return radicalLHS == radicalRHS
+  }
+  if case let ReviewItemInfo.kanji(kanjiLHS) = lhs, case let ReviewItemInfo.kanji(kanjiRHS) = rhs {
+    return kanjiLHS == kanjiRHS
+  }
+  if case let ReviewItemInfo.word(wordLHS) = lhs, case let ReviewItemInfo.word(wordRHS) = rhs {
+    return wordLHS == wordRHS
+  }
+  return false
+}

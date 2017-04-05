@@ -49,3 +49,14 @@ extension RadicalInfo {
     }
   }
 }
+
+
+public func ==(lhs: RadicalInfo, rhs: RadicalInfo) -> Bool {
+  return (lhs.character == rhs.character) && 
+(lhs.meaning == rhs.meaning) && 
+(lhs.image == rhs.image) && 
+(lhs.level == rhs.level) && 
+(lhs.percentage == rhs.percentage) && 
+(lhs.unlockedDate == rhs.unlockedDate) && 
+(lhs.userSpecific == rhs.userSpecific)
+  }

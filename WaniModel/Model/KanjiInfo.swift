@@ -8,8 +8,8 @@
 
 import Foundation
 
-public struct KanjiInfo: WaniKaniDataStructure {
-
+public struct KanjiInfo: WaniKaniDataStructure, Equatable {
+  
   struct DictionaryKey {
     static let character = "character"
     static let meaning = "meaning"
@@ -22,7 +22,7 @@ public struct KanjiInfo: WaniKaniDataStructure {
     static let percentage = "percentage"
     static let unlockedDate = "unlocked_date"
   }
-
+  
   public var character: String
   public var meaning: String?
   public var onyomi: String?
@@ -33,7 +33,7 @@ public struct KanjiInfo: WaniKaniDataStructure {
   public var percentage: String?
   public var unlockedDate: Date?
   public var userSpecific: UserSpecific?
-
+  
   public var reading: String? {
     guard let importantReading = importantReading else { return nil }
     switch importantReading {
@@ -46,14 +46,14 @@ public struct KanjiInfo: WaniKaniDataStructure {
 }
 
 extension KanjiInfo {
-
+  
   public init(dict: [String : Any]) throws {
     guard let character = dict[KanjiInfo.DictionaryKey.character] as? String,
-          let level = dict[KanjiInfo.DictionaryKey.level] as? Int else { throw InitialisationError.mandatoryFieldsMissing }
+      let level = dict[KanjiInfo.DictionaryKey.level] as? Int else { throw InitialisationError.mandatoryFieldsMissing }
     // Mandatory fields
     self.character = character
     self.level = level
-
+    
     // Optional fiels
     meaning = dict[KanjiInfo.DictionaryKey.meaning] as? String
     onyomi = dict[KanjiInfo.DictionaryKey.onyomi] as? String
@@ -69,4 +69,18 @@ extension KanjiInfo {
       unlockedDate = userSpecific?.unlockedDate
     }
   }
+}
+
+
+public func ==(lhs: KanjiInfo, rhs: KanjiInfo) -> Bool {
+  return (lhs.character == rhs.character) &&
+    (lhs.meaning == rhs.meaning) &&
+    (lhs.onyomi == rhs.onyomi) &&
+    (lhs.kunyomi == rhs.kunyomi) &&
+    (lhs.nanori == rhs.nanori) &&
+    (lhs.importantReading == rhs.importantReading) &&
+    (lhs.level == rhs.level) &&
+    (lhs.percentage == rhs.percentage) &&
+    (lhs.unlockedDate == rhs.unlockedDate) &&
+    (lhs.userSpecific == rhs.userSpecific)
 }

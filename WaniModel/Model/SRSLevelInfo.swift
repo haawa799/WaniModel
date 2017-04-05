@@ -40,3 +40,11 @@ extension SRSLevelInfo {
     self.init(radicals: radicals, kanji: kanji, vocabulary: vocabulary, total: total)
   }
 }
+
+
+public func ==(lhs: SRSLevelInfo, rhs: SRSLevelInfo) -> Bool {
+  return (lhs.radicals == rhs.radicals) && 
+(lhs.kanji == rhs.kanji) && 
+(lhs.vocabulary == rhs.vocabulary) && 
+(lhs.total == rhs.total)
+  }

@@ -38,3 +38,12 @@ extension StudyQueueInfo {
     reviewsNextDay = (dict[DictionaryKey.reviewsNextDay] as? Int)
   }
 }
+
+
+public func ==(lhs: StudyQueueInfo, rhs: StudyQueueInfo) -> Bool {
+  return (lhs.lessonsAvaliable == rhs.lessonsAvaliable) && 
+(lhs.reviewsAvaliable == rhs.reviewsAvaliable) && 
+(lhs.nextReviewDate == rhs.nextReviewDate) && 
+(lhs.reviewsNextHour == rhs.reviewsNextHour) && 
+(lhs.reviewsNextDay == rhs.reviewsNextDay)
+  }

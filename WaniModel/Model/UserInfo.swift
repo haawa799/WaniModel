@@ -58,3 +58,17 @@ extension UserInfo {
     postsCount = (dict[DictionaryKey.postsCount] as? Int)
   }
 }
+
+
+public func ==(lhs: UserInfo, rhs: UserInfo) -> Bool {
+  return (lhs.username == rhs.username) && 
+(lhs.level == rhs.level) && 
+(lhs.gravatar == rhs.gravatar) && 
+(lhs.title == rhs.title) && 
+(lhs.about == rhs.about) && 
+(lhs.website == rhs.website) && 
+(lhs.twitter == rhs.twitter) && 
+(lhs.topicsCount == rhs.topicsCount) && 
+(lhs.postsCount == rhs.postsCount) && 
+(lhs.creationDate == rhs.creationDate)
+  }

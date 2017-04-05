@@ -9,7 +9,7 @@
 import Foundation
 
 public struct UserSpecific: WaniKaniDataStructure {
-
+  
   struct DictionaryKey {
     static let srs = "srs"
     static let srsNumeric = "srs_numeric"
@@ -29,7 +29,7 @@ public struct UserSpecific: WaniKaniDataStructure {
     static let userSynonyms = "user_synonyms"
     static let readingNote = "reading_note"
   }
-
+  
   // Fields
   public var srs: String?
   public var srsNumeric: Int?
@@ -48,7 +48,7 @@ public struct UserSpecific: WaniKaniDataStructure {
   public var meaningNote: String?
   public var userSynonyms: String?
   public var readingNote: String?
-
+  
   public init(dict: [String : AnyObject]) {
     srs = (dict[DictionaryKey.srs] as? String)
     srsNumeric = (dict[DictionaryKey.srsNumeric] as? Int)
@@ -74,5 +74,26 @@ public struct UserSpecific: WaniKaniDataStructure {
     userSynonyms = (dict[DictionaryKey.userSynonyms] as? String)
     readingNote = (dict[DictionaryKey.readingNote] as? String)
   }
+  
+}
 
+
+public func ==(lhs: UserSpecific, rhs: UserSpecific) -> Bool {
+  return (lhs.srs == rhs.srs) &&
+    (lhs.srsNumeric == rhs.srsNumeric) &&
+    (lhs.unlockedDate == rhs.unlockedDate) &&
+    (lhs.availableDate == rhs.availableDate) &&
+    (lhs.burned == rhs.burned) &&
+    (lhs.burnedDate == rhs.burnedDate) &&
+    (lhs.meaningCorrect == rhs.meaningCorrect) &&
+    (lhs.meaningIncorrect == rhs.meaningIncorrect) &&
+    (lhs.meaningMaxStreak == rhs.meaningMaxStreak) &&
+    (lhs.meaningCurrentStreak == rhs.meaningCurrentStreak) &&
+    (lhs.readingCorrect == rhs.readingCorrect) &&
+    (lhs.readingIncorrect == rhs.readingIncorrect) &&
+    (lhs.readingMaxStreak == rhs.readingMaxStreak) &&
+    (lhs.readingCurrentStreak == rhs.readingCurrentStreak) &&
+    (lhs.meaningNote == rhs.meaningNote) &&
+    (lhs.userSynonyms == rhs.userSynonyms) &&
+    (lhs.readingNote == rhs.readingNote)
 }

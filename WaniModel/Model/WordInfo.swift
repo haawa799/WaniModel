@@ -9,7 +9,7 @@
 import Foundation
 
 public struct WordInfo: WaniKaniDataStructure {
-
+  
   struct DictionaryKey {
     static let character = "character"
     static let kana = "kana"
@@ -19,7 +19,7 @@ public struct WordInfo: WaniKaniDataStructure {
     static let percentage = "percentage"
     static let unlockedDate = "unlocked_date"
   }
-
+  
   public var character: String
   public var kana: String?
   public var meaning: String?
@@ -30,13 +30,13 @@ public struct WordInfo: WaniKaniDataStructure {
 }
 
 extension WordInfo {
-
+  
   public init(dict: [String : Any]) throws {
     guard let level = dict[DictionaryKey.level] as? Int,
-          let character = dict[DictionaryKey.character] as? String else { throw InitialisationError.mandatoryFieldsMissing }
+      let character = dict[DictionaryKey.character] as? String else { throw InitialisationError.mandatoryFieldsMissing }
     self.character = character
     self.level = level
-
+    
     // Optional fields
     meaning = dict[DictionaryKey.meaning] as? String
     kana = dict[DictionaryKey.kana] as? String
@@ -49,4 +49,15 @@ extension WordInfo {
       unlockedDate = userSpecific?.unlockedDate
     }
   }
+}
+
+
+public func ==(lhs: WordInfo, rhs: WordInfo) -> Bool {
+  return (lhs.character == rhs.character) &&
+    (lhs.kana == rhs.kana) &&
+    (lhs.meaning == rhs.meaning) &&
+    (lhs.level == rhs.level) &&
+    (lhs.percentage == rhs.percentage) &&
+    (lhs.unlockedDate == rhs.unlockedDate) &&
+    (lhs.userSpecific == rhs.userSpecific)
 }

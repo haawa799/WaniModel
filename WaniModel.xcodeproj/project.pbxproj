@@ -22,7 +22,7 @@
 		434FED231E842727006EA7ED /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED161E842727006EA7ED /* UserInfo.swift */; };
 		434FED241E842727006EA7ED /* UserSpecific.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED171E842727006EA7ED /* UserSpecific.swift */; };
 		434FED251E842727006EA7ED /* WaniKaniDataStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED181E842727006EA7ED /* WaniKaniDataStructure.swift */; };
-		434FED261E842727006EA7ED /* WordlInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED191E842727006EA7ED /* WordlInfo.swift */; };
+		434FED261E842727006EA7ED /* WordInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED191E842727006EA7ED /* WordInfo.swift */; };
 		434FED301E84278C006EA7ED /* WaniModel-Watch.h in Headers */ = {isa = PBXBuildFile; fileRef = 434FED2E1E84278C006EA7ED /* WaniModel-Watch.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		434FED341E84279F006EA7ED /* InitialisationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED0C1E842727006EA7ED /* InitialisationError.swift */; };
 		434FED351E84279F006EA7ED /* DashboardInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED0E1E842727006EA7ED /* DashboardInfo.swift */; };
@@ -36,7 +36,7 @@
 		434FED3D1E84279F006EA7ED /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED161E842727006EA7ED /* UserInfo.swift */; };
 		434FED3E1E84279F006EA7ED /* UserSpecific.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED171E842727006EA7ED /* UserSpecific.swift */; };
 		434FED3F1E84279F006EA7ED /* WaniKaniDataStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED181E842727006EA7ED /* WaniKaniDataStructure.swift */; };
-		434FED401E84279F006EA7ED /* WordlInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED191E842727006EA7ED /* WordlInfo.swift */; };
+		434FED401E84279F006EA7ED /* WordInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED191E842727006EA7ED /* WordInfo.swift */; };
 		434FED6E1E851DAF006EA7ED /* WaniModel-mac.h in Headers */ = {isa = PBXBuildFile; fileRef = 434FED6C1E851DAF006EA7ED /* WaniModel-mac.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		434FED721E851DCC006EA7ED /* InitialisationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED0C1E842727006EA7ED /* InitialisationError.swift */; };
 		434FED731E851DCC006EA7ED /* DashboardInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED0E1E842727006EA7ED /* DashboardInfo.swift */; };
@@ -50,7 +50,7 @@
 		434FED7B1E851DCC006EA7ED /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED161E842727006EA7ED /* UserInfo.swift */; };
 		434FED7C1E851DCC006EA7ED /* UserSpecific.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED171E842727006EA7ED /* UserSpecific.swift */; };
 		434FED7D1E851DCC006EA7ED /* WaniKaniDataStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED181E842727006EA7ED /* WaniKaniDataStructure.swift */; };
-		434FED7E1E851DCC006EA7ED /* WordlInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED191E842727006EA7ED /* WordlInfo.swift */; };
+		434FED7E1E851DCC006EA7ED /* WordInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED191E842727006EA7ED /* WordInfo.swift */; };
 		434FED801E851E44006EA7ED /* ReviewItemInfo+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED7F1E851E44006EA7ED /* ReviewItemInfo+Color.swift */; };
 		434FED811E851F7B006EA7ED /* ReviewItemInfo+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED7F1E851E44006EA7ED /* ReviewItemInfo+Color.swift */; };
 		434FED821E851F7C006EA7ED /* ReviewItemInfo+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FED7F1E851E44006EA7ED /* ReviewItemInfo+Color.swift */; };
@@ -67,6 +67,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4328C7761E953BD200610077 /* equatable.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = equatable.py; sourceTree = "<group>"; };
 		434FECF21E8426D7006EA7ED /* WaniModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WaniModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		434FECF51E8426D7006EA7ED /* WaniModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaniModel.h; sourceTree = "<group>"; };
 		434FECF61E8426D7006EA7ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -85,7 +86,7 @@
 		434FED161E842727006EA7ED /* UserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
 		434FED171E842727006EA7ED /* UserSpecific.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSpecific.swift; sourceTree = "<group>"; };
 		434FED181E842727006EA7ED /* WaniKaniDataStructure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaniKaniDataStructure.swift; sourceTree = "<group>"; };
-		434FED191E842727006EA7ED /* WordlInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordlInfo.swift; sourceTree = "<group>"; };
+		434FED191E842727006EA7ED /* WordInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordInfo.swift; sourceTree = "<group>"; };
 		434FED2C1E84278C006EA7ED /* WaniModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WaniModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		434FED2E1E84278C006EA7ED /* WaniModel-Watch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WaniModel-Watch.h"; sourceTree = "<group>"; };
 		434FED2F1E84278C006EA7ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -185,7 +186,8 @@
 				434FED161E842727006EA7ED /* UserInfo.swift */,
 				434FED171E842727006EA7ED /* UserSpecific.swift */,
 				434FED181E842727006EA7ED /* WaniKaniDataStructure.swift */,
-				434FED191E842727006EA7ED /* WordlInfo.swift */,
+				434FED191E842727006EA7ED /* WordInfo.swift */,
+				4328C7761E953BD200610077 /* equatable.py */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -406,7 +408,7 @@
 				434FED1C1E842727006EA7ED /* KanjiInfo.swift in Sources */,
 				434FED1E1E842727006EA7ED /* RadicalInfo.swift in Sources */,
 				434FED231E842727006EA7ED /* UserInfo.swift in Sources */,
-				434FED261E842727006EA7ED /* WordlInfo.swift in Sources */,
+				434FED261E842727006EA7ED /* WordInfo.swift in Sources */,
 				434FED1A1E842727006EA7ED /* InitialisationError.swift in Sources */,
 				434FED251E842727006EA7ED /* WaniKaniDataStructure.swift in Sources */,
 			);
@@ -435,7 +437,7 @@
 				434FED361E84279F006EA7ED /* KanjiInfo.swift in Sources */,
 				434FED381E84279F006EA7ED /* RadicalInfo.swift in Sources */,
 				434FED3D1E84279F006EA7ED /* UserInfo.swift in Sources */,
-				434FED401E84279F006EA7ED /* WordlInfo.swift in Sources */,
+				434FED401E84279F006EA7ED /* WordInfo.swift in Sources */,
 				434FED341E84279F006EA7ED /* InitialisationError.swift in Sources */,
 				434FED3F1E84279F006EA7ED /* WaniKaniDataStructure.swift in Sources */,
 			);
@@ -456,7 +458,7 @@
 				434FED741E851DCC006EA7ED /* KanjiInfo.swift in Sources */,
 				434FED761E851DCC006EA7ED /* RadicalInfo.swift in Sources */,
 				434FED7B1E851DCC006EA7ED /* UserInfo.swift in Sources */,
-				434FED7E1E851DCC006EA7ED /* WordlInfo.swift in Sources */,
+				434FED7E1E851DCC006EA7ED /* WordInfo.swift in Sources */,
 				434FED721E851DCC006EA7ED /* InitialisationError.swift in Sources */,
 				434FED7D1E851DCC006EA7ED /* WaniKaniDataStructure.swift in Sources */,
 			);
@@ -771,6 +773,7 @@
 				434FED701E851DB0006EA7ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

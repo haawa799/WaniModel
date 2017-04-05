@@ -23,3 +23,11 @@ public struct DashboardInfo: WaniKaniDataStructure {
   }
 
 }
+
+
+public func ==(lhs: DashboardInfo, rhs: DashboardInfo) -> Bool {
+  return (lhs.levelProgressionInfo == rhs.levelProgressionInfo) && 
+(lhs.studyQueueInfo == rhs.studyQueueInfo) && 
+(lhs.srs == rhs.srs) && 
+(lhs.lastLevelUpDate == rhs.lastLevelUpDate)
+  }

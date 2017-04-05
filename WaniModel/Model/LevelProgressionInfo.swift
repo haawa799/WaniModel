@@ -40,3 +40,12 @@ public extension LevelProgressionInfo {
   }
 
 }
+
+
+public func ==(lhs: LevelProgressionInfo, rhs: LevelProgressionInfo) -> Bool {
+  return (lhs.radicalsProgress == rhs.radicalsProgress) && 
+(lhs.radicalsTotal == rhs.radicalsTotal) && 
+(lhs.kanjiProgress == rhs.kanjiProgress) && 
+(lhs.kanjiTotal == rhs.kanjiTotal) && 
+(lhs.userInfo == rhs.userInfo)
+  }
