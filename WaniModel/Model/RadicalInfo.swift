@@ -31,6 +31,10 @@ public struct RadicalInfo: WaniKaniDataStructure {
 
 extension RadicalInfo {
 
+  public init(level: Int) {
+    self.level = level
+  }
+  
   public init(dict: [String : Any]) throws {
     guard let level = dict[DictionaryKey.level] as? Int else { throw InitialisationError.mandatoryFieldsMissing }
     self.level = level

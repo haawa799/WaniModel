@@ -47,6 +47,11 @@ public struct KanjiInfo: WaniKaniDataStructure, Equatable {
 
 extension KanjiInfo {
   
+  public init(character: String, level: Int) {
+    self.character = character
+    self.level = level
+  }
+  
   public init(dict: [String : Any]) throws {
     guard let character = dict[KanjiInfo.DictionaryKey.character] as? String,
       let level = dict[KanjiInfo.DictionaryKey.level] as? Int else { throw InitialisationError.mandatoryFieldsMissing }

@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "434FED691E851DAF006EA7ED"
-               BuildableName = "WaniModel-mac.framework"
+               BuildableName = "WaniModel.framework"
                BlueprintName = "WaniModel-mac"
                ReferencedContainer = "container:WaniModel.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "434FED691E851DAF006EA7ED"
-            BuildableName = "WaniModel-mac.framework"
+            BuildableName = "WaniModel.framework"
             BlueprintName = "WaniModel-mac"
             ReferencedContainer = "container:WaniModel.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "434FED691E851DAF006EA7ED"
-            BuildableName = "WaniModel-mac.framework"
+            BuildableName = "WaniModel.framework"
             BlueprintName = "WaniModel-mac"
             ReferencedContainer = "container:WaniModel.xcodeproj">
          </BuildableReference>

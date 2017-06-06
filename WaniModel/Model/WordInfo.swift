@@ -31,6 +31,11 @@ public struct WordInfo: WaniKaniDataStructure {
 
 extension WordInfo {
   
+  public init(character: String, level: Int) {
+    self.character = character
+    self.level = level
+  }
+  
   public init(dict: [String : Any]) throws {
     guard let level = dict[DictionaryKey.level] as? Int,
       let character = dict[DictionaryKey.character] as? String else { throw InitialisationError.mandatoryFieldsMissing }

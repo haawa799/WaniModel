@@ -49,6 +49,10 @@ public struct UserSpecific: WaniKaniDataStructure {
   public var userSynonyms: String?
   public var readingNote: String?
   
+  public init(burned: Bool) {
+    self.burned = burned
+  }
+  
   public init(dict: [String : AnyObject]) {
     srs = (dict[DictionaryKey.srs] as? String)
     srsNumeric = (dict[DictionaryKey.srsNumeric] as? Int)
